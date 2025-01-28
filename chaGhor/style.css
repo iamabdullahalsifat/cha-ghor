@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: manrope;
+  font-family: ubonto;
+  src: url(./fonts/Manrope-Regular.ttf);
+  src: url(./fonts/Ubuntu-Regular.ttf);
+  font-display: swap;
+}
+@theme {
+  --font-manrope: "manrope";
+  --font-ubonto: "ubonto";
+  --shadow-header: 0px 7px 50px rgba(0, 0, 0, 0.06);
+  --breakpoint-500d: 500px;
+  --breakpoint-410d: 410px;
+}
