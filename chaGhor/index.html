@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cha Ghor</title>
+  <link rel="icon" href="./images/start-icon.png">
   <link rel="stylesheet" href="./output.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body class="font-manrope">
-  <!-- ==<header>== -->
-  <header class="font-ubonto px-5 py-10 flex flex-col lg:flex-row max-w-7xl mx-auto justify-center items-center">
+<body class="font-ubonto">
+  <!-- ==>(Header)<== -->
+  <header class="px-5 py-10 flex flex-col lg:flex-row max-w-7xl mx-auto justify-center items-center">
     <!-- <left> -->
     <div class="space-y-5">
       <h2 class="text-2xl 410d:text-3xl sm:text-4xl text-center lg:text-left md:w-[70%] md:mx-auto lg:mx-0 lg:w-3/4 410d:leading-12 font-bold">Enjoy Perfect Tea Moments at Your Favorite Spot</h2>
@@ -41,5 +42,42 @@
       </div>
     </div>
   </header>
+  <!-- ==>(Main)<== -->
+  <main>
+    <!-- (Products) -->
+    <section class="px-5 max-w-7xl mx-auto">
+      <div class="space-y-3 mb-8">
+        <h2 class="text-2xl text-center font-bold">Discover Our Best-Selling Teas</h2>
+        <p class="text-center w-[90%] md:w-1/2 mx-auto">Explore our wide range of refreshing and flavorful teas, crafted to perfection for every tea lover.</p>
+      </div>
+      <!-- Card Container -->
+      <div class="grid gap-3 grid-cols-1 500d:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <!-- Card 1 -->
+        <div class="bg-linear-to-t from-white to-[#F4F4F4] p-5 rounded-2xl">
+          <img class="mx-auto mb-6" src="./images/tea-1.png" alt="tea-1">
+          <h2 class="text-center text-xl font-bold">Milk Tea</h2>
+          <p class="text-center text-gray-600">A perfect blend of tea and creamy goodness</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-linear-to-t from-white to-[#F4F4F4] p-5 rounded-2xl">
+          <img class="mx-auto mb-6" src="./images/tea-2.png" alt="tea-2">
+          <h2 class="text-center text-xl font-bold">Black Tea</h2>
+          <p class="text-center text-gray-600">A rich and refreshing tea experience</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-linear-to-t from-white to-[#F4F4F4] p-5 rounded-2xl">
+          <img class="mx-auto mb-6" src="./images/tea-3.png" alt="tea-3">
+          <h2 class="text-center text-xl font-bold">Lemon Tea</h2>
+          <p class="text-center text-gray-600">A perfect balance of tea and citrus freshness</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="bg-linear-to-t from-white to-[#F4F4F4] p-5 rounded-2xl">
+          <img class="mx-auto mb-6" src="./images/tea-1.png" alt="tea-1">
+          <h2 class="text-center text-xl font-bold">Green Tea</h2>
+          <p class="text-center text-gray-600">Light, fresh, and full of natural goodness</p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
