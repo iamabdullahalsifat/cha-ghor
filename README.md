@@ -1,1 +1,1 @@
-<h1>TailwindCSS Website - ChaGhor</h1>
+<h1>TailwindCSS Responsive Website - ChaGhor</h1>
